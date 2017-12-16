@@ -79,7 +79,7 @@ export default class Timeline extends Component {
                 <Home />
               </Tab>
               <Tab 
-                heading={ <tabHeading><Icon name="ios-search-outline" /></tabHeading>} >
+                heading={ <tabHeading><Icon name="ios-search-outline" /></tabHeading>} onChangeTab={this.searchTab.bind(this)} >
                 <Search />
               </Tab>
               <Tab 
